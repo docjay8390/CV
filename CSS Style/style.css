@@ -1,0 +1,43 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    background-color: lightgray;
+    width: 25%;
+    height: 25%;
+    border-collapse: collapse;
+
+    tr, td {
+        padding: 0 10px;
+    }
+    
+    .tr1 {
+        background-color: black;
+        color: white;
+    }
+    
+    .email {
+        background-color: yellow;
+    }
+    
+    .A1 {
+        background-color: skyblue;
+    }
+    
+    .C1 {
+        background-color: red;
+    }
+    
+    .B1 {
+        background-color: green;
+    }
+}
+

@@ -1,0 +1,210 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3E424B !important;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    max-width: 800px;
+    display: flex;
+}
+
+
+/* Desktop View in Header */
+@media only screen and (min-width: 768px) {
+    .header {
+        background-color: #3E424B;
+        display: flex;
+        color: white;
+        align-items: center;
+        margin-bottom: -5px;
+        justify-content: space-between;
+    }
+
+    .social {
+        display: flex; 
+        flex-direction: column; 
+        gap: 10px; 
+        margin: 0 1rem 0 10rem;
+    }
+
+    .intro {
+        font-size: 13px;
+        font-weight: lighter;
+        filter: opacity(90%);
+        color: rgb(168, 167, 167);
+        display: flex;
+        align-items: center;
+    }
+
+    .intro2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .gmail {
+        font-size: 12px;
+        color: rgb(168, 167, 167) !important;
+        cursor: pointer;
+    }
+}
+
+/* Mobile View in Header */
+@media only screen and (max-width: 480px) {
+    .header {
+        background-color: #3E424B;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        color: white;
+
+    }
+
+    .myProfile {
+        max-height: 190px; 
+        min-height: 100px;
+        padding: 0 0 0 10px;
+    }
+
+    .name {
+        color: #1AA7EC !important;
+        margin-bottom: 0;
+        padding: 0 0 0 10px;
+    }
+
+    .social {
+        display: flex; 
+        gap: 1rem;
+        padding: 0 0 0 10px;
+    }
+
+    .intro {
+        font-size: 13px;
+        font-weight: lighter;
+        filter: opacity(90%);
+        color: rgb(168, 167, 167);
+        margin-bottom: 0;
+        padding: 0 0 0 10px;
+    }
+
+    .intro {
+        font-size: 13px;
+        font-weight: lighter;
+        filter: opacity(90%);
+        color: rgb(168, 167, 167);
+        display: flex;
+        align-items: center;
+    }
+
+    .intro2 {
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 10px;
+    }
+
+    .gmail {
+        font-size: 12px;
+        color: rgb(168, 167, 167) !important;
+        cursor: pointer;
+    }
+}
+
+.myProfile {
+    max-height: 190px; 
+    min-height: 100px;
+}
+
+.name {
+    color: #1AA7EC !important;
+    margin-bottom: 0;
+}
+
+.uiUx {
+    font-size: 14px;
+    margin: 0;
+}
+
+.icons {
+    cursor: pointer;
+
+}
+
+
+/* career Summary */
+
+.careerCont {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; padding: 0 2rem; 
+    background-color: lightgray;
+}
+
+li {
+    list-style: none;
+}
+
+.expInfo {
+    font-size: 14px;
+    color: rgb(73, 73, 73);
+}
+
+/* Work Experience */
+
+.experienceCont {
+    display: flex; 
+    justify-content: space-between;  
+    padding: 0 2rem; 
+    background-color: lightgray;
+}
+
+.bar1 {
+    height: 5px;
+    width: 150px;
+    background-color: #3E424B;
+}
+
+.bar2 {
+    height: 5px;
+    width: 140px;
+    background-color: #3E424B;
+}
+
+.bar3 {
+    height: 5px;
+    width: 80px;
+    background-color: #3E424B;
+}
+
+.bar4 {
+    height: 5px;
+    width: 90px;
+    background-color: #3E424B;
+}
+
+.bar5 {
+    height: 5px;
+    width: 110px;
+    background-color: #3E424B;
+}
+
+.present {
+    margin: 20px 0 0 0;
+}
+
+.pres {
+    margin-top: 5px;
+}
+
+.percentage {
+    display: flex; 
+    font-size: 10px; 
+    align-items: center; 
+    gap: 10px;
+}
